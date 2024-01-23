@@ -1,0 +1,77 @@
+
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* my blue slide here */
+
+.container-fluid{
+    position: relative;
+}
+
+
+.less_great{
+    position: absolute;
+    top: 28px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1100px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.handsfree{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 120px;
+    top: 25px;
+}
+
+
+.flex_div{
+    display: flex;
+    justify-content:space-between;
+}
+
+.write_up{
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: 20px;
+    width: 70%;
+}
+
+
+.sign{
+    width: 20%;
+    text-align: center;
+    margin-right: 250px;
+    font-size: 25px;
+}
+
+/* my yellow slide here */
+
+.signn{
+    padding: 2px 20px;
+    width: 30%;
+    text-align: center;
+    margin-right: 250px;
+    font-size: 25px;
+}
+
+/* my socials  here */
+.social_links{
+    font-size: 20px;
+    width: 30px;
+    display: flex;
+    margin-left: 30px;
+    gap: 2px;
+
+    margin-top: 15%;
+}
