@@ -1,0 +1,43 @@
+ .teddy-bear-div  img{
+    width: 15vw;
+}
+
+.top-teddy-bear{
+    width: 101%;
+    height:100px;
+    margin-left: -10px;
+    margin-right: 0;
+    background-color: aquamarine;
+    margin-bottom: 70px;
+}
+.top-teddy-bear img{
+    width: 100%;
+}    
+
+.teddy-bear-centre{
+  position: absolute;
+  top: 12%;
+  left: 35%;
+  width: 400px;
+  height: 75vh;
+  /* background-color: darkmagenta; */
+  text-align: center;
+}
+
+.teddy-bear-centre img{
+  width: 70%;
+  height: 500px; 
+
+  
+}
+
+.teddy-bear-btn{
+  position: absolute;
+  bottom: 20%;
+  left: 42%;
+}
+
+.teddy-bear-container{
+height: 150vh;
+
+}
