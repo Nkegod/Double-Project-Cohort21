@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bree+Serif&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500&family=Phudu:wght@800&family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+
+.edit{
+  height: 180px;
+  width: 180px;
+}
+
+.slide-container{
+  position: relative;
+}
+
+.left, .left1{
+  position: absolute;
+  top: 30%;
+  left: 50px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.right, .right1{
+  position: absolute;
+  top: 30%;
+  right: 60px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.slide-one-container, .slide-two-container{
+  gap: 30px;
+  overflow: hidden;
+  width: 78%;
+  align-items: center;
+  margin-left: 150px;
+  /* scroll-behavior: smooth; */
+}
+
+.fluid{
+  height: 50vh;
+}
+
+.fluid-one{
+  height: 65vh;
+}
