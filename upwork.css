@@ -1,380 +1,67 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bree+Serif&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500&family=Phudu:wght@800&family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+.container{
+  background-image: url("https://images.pexels.com/photos/6473102/pexels-photo-6473102.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 97vh;
 }
 
-
-
-.hand img{
-    width: 450px;
-    height: 450px;
-    text-align:left;
-    position: absolute;
-    right: 15vh;
-    top: 80px;
-    
+.head{
+  width: 40%;
+  font-size: 60px;
+  margin-top: 90px;
 }
 
-.micorsoft{
-    padding: 40px;
-   
+.head-one{
+  width: 43%;
+  font-size: 20px;
+}
+.bott-one{
+  background-color: green;
+  color: #fff;
+  height: 23vh;
 }
 
-.rules h1{
-    font-size: 80px;
-    text-decoration: solid;
-    text-transform:capitalize;
-    color: #26b802;
-    letter-spacing: 2px;
+.bott-one:hover{
+  background-color: white;
+  color: green;
 }
-.rules p{
+
+.client{
+  padding-top: 45px;
+}
+
+@media screen and (max-width:1250px) {
+  .container{
+    height: 100vh;
+  }
+  .bott-one{
+    height: 25vh;
+  }
+  .bott-one h2{
     font-size: 22px;
-    padding-top: 10px;
-    color: #454b44ec;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.started{
-    padding-top: 25px;
-    
-}
-.started :hover{
-    background-color: #26b802;
-}
-
-.primary{
-    width: 25vh;
-    height: 40px;
-    border-radius: 20px;
-    text-transform: capitalize;
-    border: none;
-    background-color: #25850d;
-    color: white;
-    font-weight: bold;
+  }
+  .bott-one p{
     font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
+  }
 }
 
-.trusted p{
-    padding-top: 13vh;
-    font-weight: bold; 
-    font-size: 17px;
-    color: #454b4488;
-    font-family: Arial, Helvetica, sans-serif;
+@media screen and (max-width:1050px) {
+  .container{
+    height: 140vh;
+  }
+  .bott-one{
+    height: 25vh;
+  }
+  .bott-one p{
+    font-size: 1px;
+  }
 }
-.keep img{
-    width: 9%;
-    height: 49%;
-
-}
-
-
-@media (max-width:750px){
-    .navbar{
-        display: none; }
-    .hand img{
-        display: none; }
-    
-    .rules h1{
-        font-size: 45px;
-        font-weight: bold;
-    }
-    .micorsoft{
-        margin-left: -20px;
-        margin-top: -30px;
-    }
-
-
-    /* start of Up Your Work Game, It’s Easy */
-   
-}
-
-.media-left .fa-regular{
-    font-size: 25px;
-}
-
-.center{
-    display: flex;
-    margin-left: 30px;
-}
-.flex-shrink-0{
-    width: 0vh;
-    padding-left: 10vh;
-   
-}
-.body{ 
-    margin-left: 15vh;
-    margin-top: 4vh;   
-
-}
-.media h1{
-    margin-left: 15vh;
-    font-weight: bold;
-    color: #000;
-    font-size: 40px;
-    text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.center-book{
-    margin-bottom: 9vh;
-  
-}
-.hire button{
-    width: 27vh;
-}
-.hire .primary1{
-    width: 30vh;
-    height: 40px;
-    border-radius: 20px;
-    margin-left: 18px;
-    text-transform: capitalize;
-    border-color: #25850d;
-    background-color: #ffffff;
-    color: #25850d;
-    font-weight: bold;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.hire :hover{
-    background-color: #26b802;
-}
-@media (max-width:750px){
-   
-    .carousel-item img{
-        width: 70vh;
-    }
-    .center{
-        flex-direction: column;
-       margin-left: 3px;
-    }
-    .media h1{
-        font-size: 30px;
-        margin-left:2px;
-        margin-top: 5vh;
-    }
-    .hire .primary{
-        display: none;
-        
-    }
-    .hire .primary1{
-        width: 70vh;
-        margin-left: 2px;
-    }
-    .body{
-        margin-left: 3px;
-    }
-
-    
-}
-
-                /* category start here */
-
-.category{
-    margin: 10vh;
-    
-}
-.category h1{
-    text-transform: capitalize;
-    color: #252323;
-    font-weight: bold;
-}
-.category p{
-    font-size: large;
-    color: #3d3737ec;
-}
-.category a{
-    color: #25850d;
-    text-decoration:underline;
-}
-.category-body{
-  display: flex; 
-  justify-content: space-between;
- 
-}
-.development{
-    background-color: #f6f8f8;
-    width: 24%;
-    height: 26vh;
-    border-radius: 10px;
-    margin-top: 30px;
-    
-}
-.development ul{
-margin-top: -3px;  
-margin-bottom: 20px; 
-
-}
-.development h2{
-    padding: 20px;
-    text-transform: capitalize;
-    font-size: 27px;
-    color: #000;
-    margin-top: 10px;  
-}
-.development li{
-    text-decoration: none;
-    color: #01090ace;
-    display: inline-block;
-    font-size: 17px;
-    padding-left: 20px;
-
-}
-.development li li{margin-left: 90px;
-
-}
-.development li .fa-solid{
-    color:#25850d;
-    position: static;
-}
-.development:hover{
-    background-color: #ccd9e2cb;
-}
-@media (max-width:750px){
-    .category{
-        margin: 20px;
-    }
-    .category-body{
-        flex-direction: column;
-        margin: 20px;
-        margin: 0px;
-
-    }  
-    .development{
-        margin-bottom: -15px;
-        width: 73vh;
-        height: 20vh; 
-    }
-    .development h2{
-        margin: 0;
-        font-size: 23px;
-        font-weight: 13px;
-        
-    }
-
-}
-                /* Enterprise-Suite start here  */
-
-        
-.Enterprise-Suite{
-    display: flex;
-    background-color: #145353;
-    margin: 70px; 
-     
-}
-.flex{
-  margin-left: 25vh;
-}
-
-.right{
-    border-radius: 10px; 
-}
-
-.enterprise1 h3{
-    color: rgb(246, 253, 253);
-    margin-left: 30px;
-    margin-top: 2px;
-    letter-spacing: 2px;
-}
-.enterprise1 h1{
-    color: whitesmoke;
-    font-weight: bolder;
-    font-size: 53px;
-    margin-left: 30px;
-    margin-bottom: -2px;
-    position: relative;
-    top: 30px;
-    letter-spacing: 2px;
-    
-
-}
-.enterprise1 h2{
-    margin-left: 30px;
-    font-size: 52px;
-    color: #6bfac3;
-    margin-top: 23px;
-}
-.enterprise1 p{
-    color: whitesmoke;
-    font-size: 18px;
-    margin-left:30px ;
-   align-items: center;
-   margin-top: 20px;
-}
-.suite ul li{
-    margin-left: 30px;
-    list-style-type: none;
-    font-size: 19px;
-    color: rgb(238, 243, 241);
-    margin-top: 7px;
-}
-.suite{
-    margin-top: 20px;
-}
-.suite .fa-solid{
-    color: #6fe9c0;
-    position: static;
-    font-size: 17px;
-    
-   letter-spacing: 20px;
-}
-.learn-more button{
-    margin-left: 30px;
-    width: 23vh;
-    border: none;
-    height: 40px;
-    border-radius: 20px;
-    margin-bottom: 40px;
-    pointer-events: visible;
-    margin-top: 20px;
-    font-size: 18px;
-    color: #26504e;
-}
-.learn-more :hover{
-    background-color: #d1d1d1;
-}
-@media (max-width:750px){
-    .Enterprise-Suite{
-        flex-direction:column-reverse;
-        width: 100%;
-        margin: 0;
-    }
-    .flex .responsive{
-        width: 449px;
-        height: 280px;
-    }
-    .flex{
-        margin-left: 0;
-        
-
-    }
-    .enterprise1 h3{
-        margin-top: 20px;
-        font-size: 20px;
-    }
-    .enterprise1 h1{
-        margin-top: -20px;
-        font-size: 35px;
-        color: rgb(255, 255, 255);
-    }
-    .enterprise1 h2{
-        font-size: 34px;
-    }
-    .enterprise1 p{
-        font-size: 16px;
-        width: 63vh;
-       
-    }
-    .suite ul li{
-        font-size: 15px;
-        
-    }
-
-    
-
-
-}
-
-
-
-
-
