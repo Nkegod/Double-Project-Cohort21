@@ -1,0 +1,553 @@
+
+*{
+
+    font-family: "Helvetica Neue",Helvetica,Arial,
+    sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+    "Segoe UI Symbol","Noto Color Emoji";
+    text-decoration: none!important;
+    list-style-type: none!important;
+    
+}
+
+body a{
+color: black;
+}
+
+/* styling my navigation menu */
+
+.navigation-1{
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    border-bottom: 1px solid grey;
+        
+}
+
+.nav-logo{
+    
+    color: rgb(48, 180, 48);
+    align-items: center;
+    padding: 25px 20px;
+}
+
+.nav-logo h3{ 
+font-size: 18px;
+font-weight: bolder;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+    margin-left: 30px;
+}
+
+/* styling navigation drop downs */
+
+.nav-menu a{
+    font-size: 14px;
+}
+
+.nav-menu i{
+    font-size: 10px;
+}
+
+.findtalent-dropdown{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    height: 85vh ;
+    width: 1255px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #fff;
+    padding-top: 50px;
+    left: -150%;    
+    /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+
+}  
+
+.left{
+    border-right: 1px solid gray;
+}
+
+.left p{
+    padding: 20px 40px;
+    line-height: 25px;
+}
+
+.left i{
+    position: absolute;
+    left: 25%;
+}
+
+.center{
+    padding: 20px 40px;   
+}
+
+.center p{
+   line-height: 20px;
+}
+
+.right{
+    padding: 40px 100px;
+}
+
+.right p{
+    line-height: 35px;
+}
+
+.find-work, .whyupwork, .findtalent{
+    display: none;
+    position: relative;
+}
+
+.findwork-dropdown{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 1250px;
+    background-color: #fff;
+    left: -340%;
+    height: 30vh;
+        /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+    border-bottom: 1px solid lightgrey;
+
+
+}
+
+.drop1:hover .findtalent, .drop2:hover .find-work, .drop3:hover .whyupwork{
+    display: block;
+}
+
+.whyupwork-dropdown{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    position: absolute;
+    padding-top: 50px;
+    width: 1200px;
+    background-color: #fff;
+    left: -350%;
+    height: 55vh;
+    padding-left: 40px;
+    /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+    border-bottom: 1px solid lightgrey;
+
+}  
+
+/* styling my navigation search box */
+
+.nav-search{
+    padding-top: 12px;
+    position: relative;
+    padding-left: -40px;
+    
+}
+
+.talentoriginal{
+    position: absolute;
+    bottom: 65%;
+    
+}
+
+.nav-search span i{
+    position: absolute;
+    left: 17%;
+    bottom: 42%;
+    font-size: 18px;
+}
+
+
+
+input[type=search]{
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-indent: 25px;
+    margin-left: 15%;
+    border: 2px solid rgb(227, 244, 227);
+    }
+
+    input[type=search]:focus{
+    
+        outline: none;
+    }
+
+
+    input[type=search]:hover{
+        background-color: rgb(231, 238, 231);
+    }
+
+    .nav-search a{
+        padding:10px;
+    }
+
+
+
+    #talent{
+        background-color: white;
+        border-radius: 20px;
+        position: absolute;
+        left: 50%;
+        top: ;
+        font-size: 13px;
+        padding: 8px 20px;
+        margin-top: 0.5%;
+        
+    } 
+
+    .Talent-dropdown i{
+        padding: 5px;
+
+    }
+
+    .Talent-dropdown p{
+        padding: 5px;
+
+    }
+
+    .talentoriginal .Talent-dropdown{
+        display: none;
+        background-color: #fff;
+        position: absolute; 
+        padding: 5px 5px;
+        font-size: 13px;
+    }
+
+    #talent:hover{
+        background-color: rgb(226, 242, 226);
+    }
+
+
+    #login{
+        position: absolute;
+        top: 13px;
+        right: 24%;
+    }
+    #signup{
+        background-color: green;
+        border-radius: 20px;
+        padding: 10px 25px;
+        color: #fff;
+        position: absolute;
+        top: 13px;
+        right: 5%;
+    }
+
+     /* styling my sub-nav and more drop down */
+
+    
+ul li i{
+    font-size: 10px;
+    }
+
+ ul li{
+display: inline-block;
+padding: 5px;
+font-size: 14px;
+} 
+
+    .sub-nav li:nth-child(6):hover .more{
+        display: block;
+    }
+
+
+    .more{
+        background-color: #fff;
+        display: none;
+        position: absolute;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px;
+        left: 42%;
+        padding-right: 50px;
+        margin-top: 20px;
+    }
+
+/* styling my talents by category */
+
+.browse-talent{
+    width: 100%;
+
+}
+
+.browse-talent h1{
+    padding: 0 40px;
+}
+
+.browse-talent p{
+    padding: 0 40px;
+}
+
+.talent-categories{
+    width:98% ;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    row-gap: 20px;
+    column-gap: 25px;
+    padding:  40px;
+    
+}
+
+.category{
+    background-color: rgb(245, 246, 243);
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 25vh;
+}
+
+.category:hover{
+    background-color: rgb(236, 251, 236);
+}
+
+.category p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.category i{
+    color: green;
+}
+
+/* styling my enterprise suite */
+
+.enterprise-suite{
+    height: 88vh;
+    width: 96%;
+    display: flex;
+    /* background-color: aqua; */
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.enter-left{
+    width: 65%;
+    background-color: rgb(4, 85, 77);
+    color: aliceblue;
+    padding: 20px 40px 40px 40px;
+    font-family
+    :system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+
+.enter-left h1{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.enter-left h1 span{
+    color: rgb(142, 234, 191);
+}
+
+.enter-left a{
+    background-color:aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: px;
+}
+
+.enter-left p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: -12px;
+}
+
+.enter-left p i{
+padding-right: 15px;
+color:  rgb(118, 234, 180);
+}
+
+
+.enter-right{
+    width: 35%;
+    height: 88vh;
+}
+
+.enter-right img{
+    width: 100%;
+    height: 81.7vh;
+
+}
+
+.signup{
+    display: none;
+}
+
+/* Mobile resposiveness starts here! */
+
+@media (min-width:460px) and (max-width:680px){
+
+    .nav-logo{
+    
+        padding-left:60px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    
+    .nav-logo h3{ 
+    font-size: 19px;
+    /* font-weight: bolder; */
+    }
+
+    .signup{
+        display: block;
+        /* position: absolute;
+        top: 4%;
+        right: 20%; */
+    }
+
+        .bar{
+        position: absolute;
+        font-size: 30px;
+        top: 1%;
+        left: 3%;
+    }
+
+    #Signnup{
+        position: absolute;
+        top: 2%;
+        right: 15%;
+    }
+
+    .mg2{
+        position: absolute;
+        right: 5%;
+        top: 2%;
+        font-size: 25px;
+    }
+
+    .nav-menu{
+   display: none;
+    }
+
+    .nav-search{
+        display: none;
+
+    }
+
+    #signup{
+        display: block;
+    }
+
+    /* styling my talent categories mobile responsiveness*/
+    .talent-categories{
+       grid-template-columns: 86%;
+ }
+
+ /* styling my enterprise suite mobile responsiveness*/
+
+ .enterprise-suite{
+
+    width: 85%;
+    display: block;    
+}
+
+.enter-left{
+    width: 100%;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    
+}
+
+.enter-right{
+    width: 100%;
+
+}
+
+.enter-right img{
+    width: 100%;
+    
+}
+
+    
+}
+
+@media (min-width:680px) and (max-width:1126px){
+
+    /* styling navigation menu mobile responsiveness*/
+
+    .nav-logo{
+    
+        padding-left: 65px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    
+    .nav-logo h3{ 
+    font-size: 19px;
+    /* font-weight: bolder; */
+    }
+
+    .bar{
+        position: absolute;
+        font-size: 30px;
+        top: 1%;
+        left: 3%;
+    }
+
+    #Signnup{
+        position: absolute;
+        top: 2%;
+        right: 6%;
+    }
+
+    .mg2{
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        font-size: 25px;
+    }
+
+    .nav-menu{
+        display: none;
+         }
+     
+         .nav-search{
+             display: none;
+     
+         }
+     
+         .signup{
+             display: block;
+         }
+
+         /* styling my talent categories mobile responsiveness*/
+    .talent-categories{
+       
+
+        grid-template-columns: 45% 45%;
+
+        
+    }
+
+    /* styling my enterprise suite mobile responsiveness*/
+
+    .enterprise-suite{
+
+        width: 91%;
+        display: block;    
+        height: 150vh;
+        /* background-color: red; */
+        box-sizing: border-box;
+    }
+
+    .enter-left{
+        width: 100%;
+        padding-bottom: 40px;    
+        box-sizing: border-box; 
+    }
+
+    .enter-right{
+        width: 100%;
+        height: 70vh;
+    
+    }   
+}
