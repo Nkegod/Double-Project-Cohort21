@@ -1,3 +1,328 @@
+
+* a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    gap: 15%;
+    background-color: rgb(250, 247, 247);
+}
+
+.learn{
+    border: 0.2rem solid rgb(31, 163, 31);
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 50px;
+    color: rgb(31, 163, 31);
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 20%;
+}
+
+.support{
+    margin-bottom: 8px;
+}
+
+.support h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -1.2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.support p{
+    font-size: 18px;
+    color: #5e6d55;
+    font-weight: 600;
+}
+
+.skills{
+    margin-top: 5rem;
+    position: relative;
+}
+
+.Top:hover{
+    color: green;
+    opacity: 1;
+}
+
+.Trending:hover{
+    color: green;
+    opacity: 1;
+}
+
+.US:hover{
+    color: green;
+    opacity: 1;
+}
+
+.Project:hover{
+    color: green;
+    opacity: 1;
+}
+
+sup{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.nav{
+    position: relative;
+}
+
+.nav li{
+    border: none;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #627258;
+    padding: 0.1rem;
+    opacity: 0.5;
+}
+
+.tab1{
+    right: 32rem;
+}
+
+.tab2{
+    right: 6rem;
+}
+
+.tab3{
+    right: 28rem;
+}
+
+.tab4{
+    right: 5rem;
+}
+
+.tab5{
+    right: 26rem;
+}
+
+.tab6{
+    right: -10rem;
+}
+
+.tab7{
+    right: 25rem;
+}
+
+.tab8{
+    right: -5rem;
+}
+
+.tab-content1, .tab-content2, 
+.tab-content3, .tab-content4{
+    position: absolute;
+    opacity: 1;
+}
+
+.tab-content2{
+    top: -4rem;
+}
+
+.tab-content3{
+    top: -8rem;
+}
+
+.tab-content4{
+    top: -12rem;
+}
+
+.tab-content1 li a{
+    display: none;
+    list-style-type: none;
+    color: #627258;
+    font-size: 1.5rem;
+}
+
+.tab-content2 li a{
+    display: none;
+    list-style-type: none;
+    color: #627258;
+    font-size: 1.5rem;
+}
+
+.tab-content3 li a{
+    display: none;
+    list-style-type: none;
+    color: #627258;
+    font-size: 1.5rem;
+}
+
+.tab-content4 li a{
+    display: none;
+    list-style-type: none;
+    color: #627258;
+    font-size: 1.5rem;
+}
+
+.tab-content1 a:hover{
+    color: rgb(13, 228, 13);
+    opacity: 1;
+}
+
+.tab-content2 a:hover{
+    color: rgb(13, 228, 13);
+    opacity: 1;
+}
+
+.tab-content3 a:hover{
+    color: rgb(13, 228, 13);
+    opacity: 1;
+}
+
+.tab-content4 a:hover{
+    color: rgb(13, 228, 13);
+    opacity: 1;
+}
+
+li a{
+    color: #627258;
+}
+
+input{
+    display: none;
+}
+
+#check:checked ~ label .Top, 
+#click:checked ~ label .Trending,
+#tick:checked ~ label .US,
+#pick:checked ~ label .Project{
+    color: rgb(11, 153, 11);
+    opacity: 1;
+}
+
+#check:checked ~ .tab-content1 li a,
+#click:checked ~ .tab-content2 li a,
+#tick:checked ~ .tab-content3 li a,
+#pick:checked ~ .tab-content4 li a{
+    display: block;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:1020px) {
+    .learn{
+        font-size: 0.9rem;
+        border-radius: 50px;
+        font-weight: bold;
+        margin-top: 1.8rem;
+        padding: 0.4rem;
+        width: 58%;
+    }
+
+    .support h1{
+        font-size: 36px;
+    }
+
+    .support p{
+        font-size: 16px;
+    }
+
+        
+    .tab1{
+        right: 200px;
+    }
+
+    .tab2{
+        right: -3px;
+    }
+
+    .tab3{
+        right: 275px;
+    }
+
+    .tab4{
+        right: -10px;
+    }
+
+    .tab5{
+        right: 250px;
+    }
+
+    .tab6{
+        right: -250px;
+    }
+
+    .tab7{
+        right: 200px;
+    }
+
+    .tab8{
+        right: -200px;
+    }
+}
+
+@media (min-width:500px) and (max-width:1020px) {
+    
+    .tab1{
+        right: 20px;
+    }
+
+    .tab2{
+        right: -3px;
+    }
+
+    .tab3{
+        right: 275px;
+    }
+
+    .tab4{
+        right: -10px;
+    }
+
+    .tab5{
+        right: 250px;
+    }
+
+    .tab6{
+        right: -250px;
+    }
+
+    .tab7{
+        right: 200px;
+    }
+
+    .tab8{
+        right: -200px;
+    }
+
+    .learn{
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        padding: 0.1rem;
+        width: 55%;
+    }
+
+    .skills{
+        display: flex;
+    }
+
+    .nav li{
+        font-size: 25px;
+    }
+
+    .tab-content1, .tab-content2, 
+    .tab-content3, .tab-content4{
+        flex-direction: column;
+        position: absolute;
+    }
+
+    
+.tab-content1 li a, .tab-content2 li a,
+.tab-content3 li a, .tab-content4 li a{
+        font-size: 1rem;
+    }
+    
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bree+Serif&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
@@ -65,3 +390,4 @@
     font-size: 1px;
   }
 }
+
