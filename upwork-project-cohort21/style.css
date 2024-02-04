@@ -1,0 +1,1602 @@
+/* Evakings Starts here */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+
+.hand img{
+    width: 400px;
+    height: 400px;
+    text-align:left;
+    position: absolute;
+    right: 15vh;
+    top: 90px;
+    z-index: -20;
+    
+}
+
+.micorsoft{
+    padding: 40px;
+   
+}
+
+.rules h1{
+    font-size: 80px;
+    text-decoration: solid;
+    text-transform:capitalize;
+    color: #26b802;
+    letter-spacing: 2px;
+}
+.rules p{
+    font-size: 22px;
+    padding-top: 10px;
+    color: #454b44ec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.started{
+    padding-top: 25px;
+    
+}
+.started :hover{
+    background-color: #ccd9e2cb;
+}
+.primary{
+    width: 25vh;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    border: none;
+    background-color: #25850d;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trusted p{
+    padding-top: 13vh;
+    font-weight: bold; 
+    font-size: 17px;
+    color: #454b4488;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.keep img{
+    width: 9%;
+    height: 49%;
+
+}
+
+
+@media (max-width:750px){
+    .navbar{
+        display: none; }
+    .hand img{
+        display: none; }
+    
+    .rules h1{
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .micorsoft{
+        margin-left: -20px;
+        margin-top: -30px;
+    }
+
+
+    /* start of Up Your Work Game, It’s Easy */
+   
+}
+
+
+.media-left .fa-solid{
+    position: sticky;
+    font-size: 25px;
+}
+.media-left .fa-regular{
+    font-size: 25px;
+}
+
+.center{
+    display: flex;
+   align-items: center;
+   gap: 75px;
+}
+.flex-shrink-0{
+    width: 0vh;
+    padding-left: 1vh;
+   
+}
+.body{ 
+    margin-left: 70vh;
+    margin-top: 1vh;
+   
+     /* margin: 0vh 0vh 1vh 70vh; */
+    
+
+}
+.media-body{
+    margin-left: 20px;
+}
+.media-body1{
+    margin-left: 26px;
+}
+.media-body2{
+    margin-left: 17px;
+}
+.media{
+    display: flex;
+}
+.media h1{
+    font-size: 30px;
+    
+    width: 100vh;
+    margin-top:-1vh;
+    /* margin-bottom: vh; */
+    margin-left: 70vh;
+    font-weight: bold;
+    color: #000;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-book{
+  position: relative;
+  right: 70vh;
+  bottom: 6vh;
+}
+.body{
+    font-size: 13px;
+    /* position: relative;
+    right: 50px; */
+}
+.hire button{
+    width: 27vh;
+}
+.hire .primary1{
+    width: 30vh;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 18px;
+    text-transform: capitalize;
+    /* border-bottom: #25850d ; */
+    border-color: #25850d;
+    background-color: #ffffff;
+    color: #25850d;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hire :hover{
+    background-color: #26b802;
+}
+@media (max-width:750px){
+    .carousel-item img{
+        width: 70vh;
+    }
+    .center{
+        flex-direction: column;
+       /* margin-left: 53px; */
+    }
+    .media h1{
+     position: relative;
+     left: 30vh;
+    
+    }
+    .hire .primary{
+        display: none;
+        
+    }
+  
+    .body{
+        margin-left: 100vh;
+        
+    }
+
+    
+}
+
+@media (min-width:424px) and (max-width:1018px){
+    .hand img{
+        width: 45vh;
+        height: 45vh;
+        margin-top: 15vh;
+        margin-right: -10vh;
+        
+
+    }
+   .media h1{
+    font-size: 37px;
+   
+    width: 100vh;
+   
+   } 
+   .body{
+    font-size: 13px;
+   } 
+
+    .center{
+        flex-direction: column;
+        /* margin-right: 20vh; */
+    }
+    .media-left .fa-regular{
+        font-size: 19px;
+        margin-left: 10px;
+    }
+    .media-left .fa-solid{
+        font-size: 19px;
+        margin-left: 10px; 
+    }
+
+
+    .center-book{
+     margin-left: 35vh;
+     font-size: 15px;
+    }
+
+    .flex-shrink-0{
+      
+               
+    }
+}
+
+/* Ends here */
+
+
+
+/* /////////////Jeguero Starts//////////// */
+
+* a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    gap: 15%;
+    background-color: rgb(250, 247, 247);
+}
+
+.learn{
+    border: 0.2rem solid rgb(31, 163, 31);
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 50px;
+    color: rgb(31, 163, 31);
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 20%;
+}
+
+.support{
+    margin-bottom: 8px;
+}
+
+.support h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -1.2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.support p{
+    font-size: 18px;
+    color: #5e6d55;
+    font-weight: 600;
+}
+.skills{
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+    position: relative;
+    height: 80vh;
+   
+}
+
+.Top:hover{
+    color: green;
+    opacity: 1;
+}
+
+.Trending:hover{
+    color: green;
+    opacity: 1;
+}
+
+.US:hover{
+    color: green;
+    opacity: 1;
+}
+
+.Project:hover{
+    color: green;
+    opacity: 1;
+}
+
+sup{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.nav{
+    position: relative;
+}
+
+.nav li{
+    border: none;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #627258;
+    padding: 0.1rem;
+    opacity: 0.5;
+}
+
+.tab1{
+    right: 32rem;
+}
+
+.tab2{
+    right: 6rem;
+}
+
+.tab3{
+    right: 28rem;
+}
+
+.tab4{
+    right: 5rem;
+}
+
+.tab5{
+    right: 26rem;
+}
+
+.tab6{
+    right: -10rem;
+}
+
+.tab7{
+    right: 25rem;
+}
+
+.tab8{
+    right: -5rem;
+}
+
+.tab-content1, .tab-content2, 
+.tab-content3, .tab-content4{
+    position: absolute;
+    opacity: 1;
+}
+
+.tab-content2{
+    top: -4rem;
+}
+
+.tab-content3{
+    top: -8rem;
+}
+
+.tab-content4{
+    top: -12rem;
+}
+
+.tab-content1 li a{
+    display: none;
+    list-style-type: none;
+    color: #627258;
+    font-size: 1.5rem;
+}
+
+.tab-content2 li a{
+    display: none;
+    list-style-type: none;
+    color: #627258;
+    font-size: 1.5rem;
+}
+
+.tab-content3 li a{
+    display: none;
+    list-style-type: none;
+    color: #627258;
+    font-size: 1.5rem;
+}
+
+.tab-content4 li a{
+    display: none;
+    list-style-type: none;
+    color: #627258;
+    font-size: 1.5rem;
+}
+
+.tab-content1 a:hover{
+    color: rgb(13, 228, 13);
+    opacity: 1;
+}
+
+.tab-content2 a:hover{
+    color: rgb(13, 228, 13);
+    opacity: 1;
+}
+
+.tab-content3 a:hover{
+    color: rgb(13, 228, 13);
+    opacity: 1;
+}
+
+.tab-content4 a:hover{
+    color: rgb(13, 228, 13);
+    opacity: 1;
+}
+
+li a{
+    color: #627258;
+}
+
+input{
+    display: none;
+}
+
+#check1:checked ~ label .Top, 
+#click:checked ~ label .Trending,
+#tick:checked ~ label .US,
+#pick:checked ~ label .Project{
+    color: rgb(11, 153, 11);
+    opacity: 1;
+}
+
+#check1:checked ~ .tab-content1 li a,
+#click:checked ~ .tab-content2 li a,
+#tick:checked ~ .tab-content3 li a,
+#pick:checked ~ .tab-content4 li a{
+    display: block;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:1020px) {
+    .learn{
+        font-size: 0.9rem;
+        border-radius: 50px;
+        font-weight: bold;
+        margin-top: 1.8rem;
+        padding: 0.4rem;
+        width: 58%;
+    }
+
+    .support h1{
+        font-size: 36px;
+    }
+
+    .support p{
+        font-size: 16px;
+    }
+
+        
+    .tab1{
+        right: 200px;
+    }
+
+    .tab2{
+        right: -3px;
+    }
+
+    .tab3{
+        right: 275px;
+    }
+
+    .tab4{
+        right: -10px;
+    }
+
+    .tab5{
+        right: 250px;
+    }
+
+    .tab6{
+        right: -250px;
+    }
+
+    .tab7{
+        right: 200px;
+    }
+
+    .tab8{
+        right: -200px;
+    }
+
+    .tab-content4{
+        margin-top: 300px;
+    }
+
+}
+
+
+
+@media (min-width:500px) and (max-width:1020px) {
+    
+    .tab1{
+        right: 5px;
+    }
+
+    .tab2{
+        right: -200px;
+    }
+
+    .tab3{
+        right: 80px;
+    }
+
+    .tab4{
+        right: -150px;
+    }
+
+    .tab5{
+        right: 150px;
+    }
+
+    .tab6{
+        right: -250px;
+    }
+
+    .tab7{
+        right: 200px;
+    }
+
+    .tab8{
+        right: -20px;
+    }
+
+    .learn{
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-top: 2rem;
+        padding: 0.1rem;
+        width: 55%;
+    }
+
+    .skills{
+        display: flex;
+    }
+
+    .nav li{
+        font-size: 25px;
+    }
+
+    .tab-content1, .tab-content2, 
+    .tab-content3, .tab-content4{
+        flex-direction: column;
+        position: absolute;
+    }
+
+    .tab-content1{
+        margin-top: 80px;  
+    }
+
+
+    .tab-content2{
+        margin-top: 140px;
+    }
+
+    .tab-content3{
+        margin-top: 200px; 
+    }
+
+    .tab-content4 {
+        margin-top: 250px;  
+    }
+
+.tab-content1 li a, .tab-content2 li a,
+.tab-content3 li a, .tab-content4 li a{
+        font-size: 1rem;
+    }
+    
+    .nav li{
+        font-size: 18px;
+      
+
+    }
+
+ .hand-design{
+    margin-top: 70px;
+ }
+       
+}
+
+
+
+/* Ends here */
+
+
+
+
+
+
+
+*{
+
+    font-family: "Helvetica Neue",Helvetica,Arial,
+    sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+    "Segoe UI Symbol","Noto Color Emoji";
+    text-decoration: none!important;
+    list-style-type: none!important;
+    
+}
+
+body a{
+color: black;
+}
+
+/* styling my navigation menu */
+
+.navigation-1{
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    border-bottom: 1px solid grey;
+        
+}
+
+.nav-logo{
+    
+    color: rgb(48, 180, 48);
+    align-items: center;
+    padding: 25px 20px;
+}
+
+.nav-logo h3{ 
+font-size: 18px;
+font-weight: bolder;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+    margin-left: 30px;
+}
+
+/* styling navigation drop downs */
+
+.nav-menu a{
+    font-size: 14px;
+}
+
+.nav-menu i{
+    font-size: 10px;
+}
+
+.findtalent-dropdown{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    height: 85vh ;
+    width: 1255px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #fff;
+    padding-top: 50px;
+    left: -150%;    
+    /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+
+}  
+
+.left{
+    border-right: 1px solid gray;
+}
+
+.left p{
+    padding: 20px 40px;
+    line-height: 25px;
+}
+
+.left i{
+    position: absolute;
+    left: 25%;
+}
+
+.center{
+    padding: 20px 40px;   
+}
+
+.center p{
+   line-height: 20px;
+}
+
+.right{
+    padding: 40px 100px;
+}
+
+.right p{
+    line-height: 35px;
+}
+
+.find-work, .whyupwork, .findtalent{
+    display: none;
+    position: relative;
+}
+
+.findwork-dropdown{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 1250px;
+    background-color: #fff;
+    left: -340%;
+    height: 30vh;
+        /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+    border-bottom: 1px solid lightgrey;
+
+
+}
+
+.drop1:hover .findtalent, .drop2:hover .find-work, .drop3:hover .whyupwork{
+    display: block;
+}
+
+.whyupwork-dropdown{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    position: absolute;
+    padding-top: 50px;
+    width: 1200px;
+    background-color: #fff;
+    left: -350%;
+    height: 55vh;
+    padding-left: 40px;
+    /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+    border-bottom: 1px solid lightgrey;
+
+}  
+
+/* styling my navigation search box */
+
+.nav-search{
+    padding-top: 12px;
+    position: relative;
+    padding-left: -40px;
+    
+}
+
+.talentoriginal{
+    position: absolute;
+    bottom: 65%;
+    
+}
+
+.nav-search span i{
+    position: absolute;
+    left: 17%;
+    bottom: 42%;
+    font-size: 18px;
+}
+
+
+
+input[type=search]{
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-indent: 25px;
+    margin-left: 15%;
+    border: 2px solid rgb(227, 244, 227);
+    }
+
+    input[type=search]:focus{
+    
+        outline: none;
+    }
+
+
+    input[type=search]:hover{
+        background-color: rgb(231, 238, 231);
+    }
+
+    .nav-search a{
+        padding:10px;
+    }
+
+
+
+    #talent{
+        background-color: white;
+        border-radius: 20px;
+        position: absolute;
+        left: 50%;
+        /* top: ; */
+        font-size: 13px;
+        padding: 8px 20px;
+        margin-top: 0.5%;
+        
+    } 
+
+    .Talent-dropdown i{
+        padding: 5px;
+
+    }
+
+    .Talent-dropdown p{
+        padding: 5px;
+
+    }
+
+    .talentoriginal .Talent-dropdown{
+        display: none;
+        background-color: #fff;
+        position: absolute; 
+        padding: 5px 5px;
+        font-size: 13px;
+    }
+
+    #talent:hover{
+        background-color: rgb(226, 242, 226);
+    }
+
+
+    #login{
+        position: absolute;
+        top: 13px;
+        right: 24%;
+    }
+    #signup{
+        background-color: green;
+        border-radius: 20px;
+        padding: 10px 25px;
+        color: #fff;
+        position: absolute;
+        top: 13px;
+        right: 5%;
+    }
+
+     /* styling my sub-nav and more drop down */
+
+    
+ul li i{
+    font-size: 10px;
+    }
+
+ ul li{
+display: inline-block;
+padding: 5px;
+font-size: 14px;
+} 
+
+    .sub-nav li:nth-child(6):hover .more{
+        display: block;
+    }
+
+
+    .more{
+        background-color: #fff;
+        display: none;
+        position: absolute;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px;
+        left: 42%;
+        padding-right: 50px;
+        margin-top: 20px;
+    }
+
+/* styling my talents by category */
+
+.browse-talent{
+    width: 100%;
+
+}
+
+.browse-talent h1{
+    padding: 0 40px;
+}
+
+.browse-talent p{
+    padding: 0 40px;
+}
+
+.talent-categories{
+    width:98% ;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    row-gap: 20px;
+    column-gap: 25px;
+    padding:  40px;
+    
+}
+
+.category{
+    background-color: rgb(245, 246, 243);
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 25vh;
+}
+
+.category:hover{
+    background-color: rgb(236, 251, 236);
+}
+
+.category p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.category i{
+    color: green;
+}
+
+/* styling my enterprise suite */
+
+.enterprise-suite{
+    height: 88vh;
+    width: 96%;
+    display: flex;
+    /* background-color: aqua; */
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.enter-left{
+    width: 65%;
+    background-color: rgb(4, 85, 77);
+    color: aliceblue;
+    padding: 20px 40px 40px 40px;
+    font-family
+    :system-ui, -apple-system, 
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+
+.enter-left h1{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.enter-left h1 span{
+    color: rgb(142, 234, 191);
+}
+
+.enter-left a{
+    background-color:aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: px;
+}
+
+.enter-left p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: -12px;
+}
+
+.enter-left p i{
+padding-right: 15px;
+color:  rgb(118, 234, 180);
+}
+
+
+.enter-right{
+    width: 35%;
+    height: 88vh;
+}
+
+.enter-right img{
+    width: 100%;
+    height: 81.5vh;
+
+}
+
+/* Mobile resposiveness starts here! */
+
+@media (min-width:460px) and (max-width:680px){
+
+    .talent-categories{
+       grid-template-columns: 86%;
+ }
+
+ .enterprise-suite{
+
+    width: 85%;
+    display: block;    
+}
+
+.enter-left{
+    width: 100%;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    
+}
+
+.enter-right{
+    width: 100%;
+
+}
+
+.enter-right img{
+    width: 100%;
+    
+}
+
+    
+}
+
+@media (min-width:680px) and (max-width:1126px){
+
+    .talent-categories{
+       
+
+        grid-template-columns: 45% 45%;
+
+        
+    }
+
+    .enterprise-suite{
+
+        width: 91%;
+        display: block;    
+        height: 150vh;
+        /* background-color: red; */
+        box-sizing: border-box;
+    }
+
+    .enter-left{
+        width: 100%;
+        padding-bottom: 40px;    
+        box-sizing: border-box; 
+    }
+
+    .enter-right{
+        width: 100%;
+        height: 70vh;
+    
+    }   
+}
+
+
+/* 
+||||||||||||||||||||||||||||||||||||||||||
+This section was contributed by Ayo 
+|||||||||||||||||||||||||||||||||||||||||
+*/
+
+.client-catalog{
+    background-image: url("https://images.pexels.com/photos/6473102/pexels-photo-6473102.jpeg");
+    background-position: fixed;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .head{
+    width: 40%;
+    font-size: 60px;
+    margin-top: 90px;
+  }
+  
+  .head-one{
+    width: 43%;
+    font-size: 20px;
+  }
+  .bott-one{
+    background-color: green;
+    color: #fff;
+    height: 23vh;
+  }
+  
+  .bott-one:hover{
+    background-color: white;
+    color: green;
+  }
+  
+  .client{
+    padding-top: 45px;
+  }
+  
+  @media screen and (max-width:1250px) {
+    .client-catalog{
+      height: 100vh;
+    }
+    .bott-one{
+      height: 25vh;
+    }
+    .bott-one h2{
+      font-size: 22px;
+    }
+    .bott-one p{
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (max-width:1050px) {
+    .client-catalog{
+      height: 140vh;
+    }
+    .bott-one{
+      height: 25vh;
+    }
+    .bott-one p{
+      font-size: 1px;
+    }
+  }
+
+ /* ///////// Updated Mikelson/////// */
+ 
+*{
+
+    font-family: "Helvetica Neue",Helvetica,Arial,
+    sans-serif,"Apple Color Emoji","Segoe UI Emoji",
+    "Segoe UI Symbol","Noto Color Emoji";
+    text-decoration: none!important;
+    list-style-type: none!important;
+    
+}
+
+body a{
+color: black;
+}
+
+/* styling my navigation menu */
+
+.navigation-1{
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    border-bottom: 1px solid grey;
+        
+}
+
+.nav-logo{
+    
+    color: rgb(48, 180, 48);
+    align-items: center;
+    padding: 25px 20px;
+}
+
+.nav-logo h3{ 
+font-size: 18px;
+font-weight: bolder;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+    margin-left: 30px;
+}
+
+/* styling navigation drop downs */
+
+.nav-menu a{
+    font-size: 14px;
+}
+
+.nav-menu i{
+    font-size: 10px;
+}
+
+.findtalent-dropdown{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    height: 85vh ;
+    width: 1255px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #fff;
+    padding-top: 50px;
+    left: -150%;    
+    /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+
+}  
+
+.left{
+    border-right: 1px solid gray;
+}
+
+.left p{
+    padding: 20px 40px;
+    line-height: 25px;
+}
+
+.left i{
+    position: absolute;
+    left: 25%;
+}
+
+.center{
+    padding: 20px 40px;   
+}
+
+.center p{
+   line-height: 20px;
+}
+
+.right{
+    padding: 40px 100px;
+}
+
+.right p{
+    line-height: 35px;
+}
+
+.find-work, .whyupwork, .findtalent{
+    display: none;
+    position: relative;
+}
+
+.findwork-dropdown{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 1250px;
+    background-color: #fff;
+    left: -340%;
+    height: 30vh;
+        /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+    border-bottom: 1px solid lightgrey;
+
+
+}
+
+.drop1:hover .findtalent, .drop2:hover .find-work, .drop3:hover .whyupwork{
+    display: block;
+}
+
+.whyupwork-dropdown{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    position: absolute;
+    padding-top: 50px;
+    width: 1200px;
+    background-color: #fff;
+    left: -350%;
+    height: 55vh;
+    padding-left: 40px;
+    /* margin-top: 27.5px;
+    border-top: 1px solid  grey; */
+    border-bottom: 1px solid lightgrey;
+
+}  
+
+/* styling my navigation search box */
+
+.nav-search{
+    padding-top: 12px;
+    position: relative;
+    padding-left: -40px;
+    
+}
+
+.talentoriginal{
+    position: absolute;
+    bottom: 65%;
+    
+}
+
+.nav-search span i{
+    position: absolute;
+    left: 17%;
+    bottom: 42%;
+    font-size: 18px;
+}
+
+
+
+input[type=search]{
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-indent: 25px;
+    margin-left: 15%;
+    border: 2px solid rgb(227, 244, 227);
+    }
+
+    input[type=search]:focus{
+    
+        outline: none;
+    }
+
+
+    input[type=search]:hover{
+        background-color: rgb(231, 238, 231);
+    }
+
+    .nav-search a{
+        padding:10px;
+    }
+
+
+
+    #talent{
+        background-color: white;
+        border-radius: 20px;
+        position: absolute;
+        left: 50%;
+        top: ;
+        font-size: 13px;
+        padding: 8px 20px;
+        margin-top: 0.5%;
+        
+    } 
+
+    .Talent-dropdown i{
+        padding: 5px;
+
+    }
+
+    .Talent-dropdown p{
+        padding: 5px;
+
+    }
+
+    .talentoriginal .Talent-dropdown{
+        display: none;
+        background-color: #fff;
+        position: absolute; 
+        padding: 5px 5px;
+        font-size: 13px;
+    }
+
+    #talent:hover{
+        background-color: rgb(226, 242, 226);
+    }
+
+
+    #login{
+        position: absolute;
+        top: 13px;
+        right: 24%;
+    }
+    #signup{
+        background-color: green;
+        border-radius: 20px;
+        padding: 10px 25px;
+        color: #fff;
+        position: absolute;
+        top: 13px;
+        right: 5%;
+    }
+
+     /* styling my sub-nav and more drop down */
+
+    
+ul li i{
+    font-size: 10px;
+    }
+
+ ul li{
+display: inline-block;
+padding: 5px;
+font-size: 14px;
+} 
+
+    .sub-nav li:nth-child(6):hover .more{
+        display: block;
+    }
+
+
+    .more{
+        background-color: #fff;
+        display: none;
+        position: absolute;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px;
+        left: 42%;
+        padding-right: 50px;
+        margin-top: 20px;
+    }
+
+
+
+
+.signup{
+    display: none;
+}
+
+#check1{
+    display: none;
+ }
+
+ .bar{
+ display: none;
+}
+
+/* Mobile resposiveness starts here! */
+
+@media (min-width:460px) and (max-width:680px){
+
+    #check1:checked ~ .nav-menu{
+        display: block;
+        position: absolut;
+         }
+
+         
+    /* #check:checked ~ .mg2{
+        position: absolute;
+        right: 30%;
+        top: 40%;
+
+    }
+
+    #check:checked ~ .register{
+        position: absolute;
+        top: 80%;
+        right: 15%;
+        background-color: green;
+ } */
+
+
+
+
+    .nav-logo{
+    
+        padding-left:60px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    
+    .nav-logo h3{ 
+    font-size: 19px;
+
+    }
+
+    .signup{
+        display: block;
+        /* position: relative; */
+    
+    }
+
+        .bar{
+        position: absolute;
+        font-size: 30px;
+        top: 1%;
+        left: 3%;
+        display: block;
+    }
+
+    .drop1:hover .findtalent, .drop2:hover .find-work, .drop3:hover .whyupwork{
+        display: none;
+    }
+
+    .drop1, .drop2, .drop3 {
+
+        margin-top: 50px;
+ 
+    }
+
+    .drop4{
+    
+        line-height: 120px;
+    }
+
+    #Signnup{
+        position: absolute;
+        top: 3%;
+        right: 15%;
+    
+    
+    }
+
+    .mg2{
+        position: absolute;
+        right: 5%;
+        top: 3%;
+        font-size: 25px;
+    }
+
+    .nav-menu{
+   display: none;
+   position: relative;
+   top: 10%;
+   left: -35%;
+   padding: 30px; 
+   width: 250%;
+   height: 80vh;
+    }
+
+    .nav-search{
+        display: none;
+
+    }
+
+    #signup{
+        display: block;
+    }
+
+    
+ 
+
+@media (min-width:680px) and (max-width:1126px){
+
+    /* styling navigation menu mobile responsiveness*/
+
+    #check:checked ~ .nav-menu{
+        display: block;
+        position: absolut;
+         }
+
+    
+
+    .nav-logo{
+    
+        padding-left: 65px;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    
+    .nav-logo h3{ 
+    font-size: 19px;
+    /* font-weight: bolder; */
+    }
+
+    .bar{
+        position: absolute;
+        font-size: 30px;
+        top: 1%;
+        left: 3%;
+        display: block;
+    }
+
+    .drop1:hover .findtalent, .drop2:hover .find-work, .drop3:hover .whyupwork{
+        display: none;
+    }
+
+    .drop1, .drop2, .drop3 {
+
+        margin-top: 50px;
+ 
+    }
+
+    .drop4{
+    
+        line-height: 120px;
+    }
+
+    #Signnup{
+        position: absolute;
+        top: 2%;
+        right: 6%;
+    }
+
+    .mg2{
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        font-size: 25px;
+    }
+
+         .nav-menu{
+            display: none;
+            position: relative;
+            top: 10%;
+            left: -35%;
+            padding: 30px; 
+            width: 250%;
+            height: 80vh;
+             }
+     
+         .nav-search{
+             display: none;
+     
+         }
+     
+         .signup{
+             display: block;
+         }
+
+         
+        
+    }
+
