@@ -1,3 +1,4 @@
+
 * a{
     text-decoration: none;
 }
@@ -319,5 +320,74 @@ body{
         font-size: 1rem;
     }
     
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Bree+Serif&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,500&family=Phudu:wght@800&family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&family=Kanit:ital,wght@0,400;1,200&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500&family=Phudu:wght@800&family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,500&family=Roboto:wght@100&family=Rubik+Iso&display=swap');
+
+.container{
+  background-image: url("https://images.pexels.com/photos/6473102/pexels-photo-6473102.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 97vh;
+}
+
+.head{
+  width: 40%;
+  font-size: 60px;
+  margin-top: 90px;
+}
+
+.head-one{
+  width: 43%;
+  font-size: 20px;
+}
+.bott-one{
+  background-color: green;
+  color: #fff;
+  height: 23vh;
+}
+
+.bott-one:hover{
+  background-color: white;
+  color: green;
+}
+
+.client{
+  padding-top: 45px;
+}
+
+@media screen and (max-width:1250px) {
+  .container{
+    height: 100vh;
+  }
+  .bott-one{
+    height: 25vh;
+  }
+  .bott-one h2{
+    font-size: 22px;
+  }
+  .bott-one p{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .container{
+    height: 140vh;
+  }
+  .bott-one{
+    height: 25vh;
+  }
+  .bott-one p{
+    font-size: 1px;
+  }
 }
 
