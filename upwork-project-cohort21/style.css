@@ -612,9 +612,7 @@ body{
 /* Ends here */
 
 
-
-
-
+/* Sirmikelson contribution starts here */
 
 
 *{
@@ -858,11 +856,11 @@ input[type=search]{
      /* styling my sub-nav and more drop down */
 
     
-ul li i{
+.ul1 li i{
     font-size: 10px;
     }
 
- ul li{
+ .ul1 li{
 display: inline-block;
 padding: 5px;
 font-size: 14px;
